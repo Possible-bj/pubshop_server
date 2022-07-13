@@ -4,6 +4,7 @@ import { v2 as cloudinary } from 'cloudinary'
 // @route GET /api/uploads
 // @access Private/Admin
 export default async (req, res) => {
+
   /////////////////////////
   // Uploads an image file
   /////////////////////////
