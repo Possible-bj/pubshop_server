@@ -1,5 +1,6 @@
 import express from 'express'
-import path, { dirname } from 'path'
+// import path, { dirname } from 'path'
+import cors from 'cors'
 import chalk from 'chalk'
 import connectDB from './db/mongoose.js'
 import userRoutes from './routers/userRoutes.js'
@@ -21,6 +22,8 @@ cloudinary.config({
 
 const app = express()
 app.use(express.json())
+app.use(cors())
+
 app.use('/api/users', userRoutes)
 app.use('/api/orders', orderRoutes)
 app.use('/api/products', productRoutes)

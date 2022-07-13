@@ -1,0 +1,107 @@
+[{
+  "_id": {
+    "$oid": "62cac3b50823801b04fd643b"
+  },
+  "taxPrice": 7.5,
+  "itemsPrice": 49.99,
+  "shippingPrice": 100,
+  "totalPrice": 157.49,
+  "isPaid": false,
+  "isDelivered": false,
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "62cac3b50823801b04fd643c"
+      },
+      "product": {
+        "$oid": "62bb5a1d2286fe1eb87b1494"
+      },
+      "name": "Logitech G-Series Gaming Mouse",
+      "image": "/images/mouse.jpg",
+      "price": 49.99,
+      "qty": 1
+    }
+  ],
+  "user": {
+    "$oid": "62c74fee0540413d041bc509"
+  },
+  "shippingAddress": {
+    "address": "24 Alhaji Shokoya Street, Oshodi",
+    "city": "Lagos",
+    "postalCode": "100001",
+    "country": "Nigeria"
+  },
+  "paymentMethod": "PayPal",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1657455541321"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1657455541321"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cacd8735dba6269c995fef"
+  },
+  "taxPrice": 3,
+  "itemsPrice": 20,
+  "shippingPrice": 100,
+  "totalPrice": 123,
+  "isPaid": true,
+  "isDelivered": true,
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "62cacd8735dba6269c995ff0"
+      },
+      "product": {
+        "$oid": "62c9f5c714b01843d45e4ea6"
+      },
+      "name": "Bnb logo",
+      "image": "https://res.cloudinary.com/possiblecloudinaryassets/image/upload/v1657403005/pubshop/1cdf2062e493ab401a013e451cf02f92.png",
+      "price": 20,
+      "qty": 1
+    }
+  ],
+  "user": {
+    "$oid": "62c74fee0540413d041bc50a"
+  },
+  "shippingAddress": {
+    "address": "24 Alhaji Shokoya Street",
+    "city": "Oshodi",
+    "postalCode": "100001",
+    "country": "Nigeria"
+  },
+  "paymentMethod": "PayPal",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1657458055301"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1657461040474"
+    }
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": {
+      "$numberLong": "1657458361484"
+    }
+  },
+  "paymentResult": {
+    "id": "4RV69079UH8443410",
+    "status": "COMPLETED",
+    "update_time": "2022-07-10T13:05:59Z",
+    "email_address": "sb-xd0mi6900663@personal.example.com"
+  },
+  "deliveredAt": {
+    "$date": {
+      "$numberLong": "1657461040435"
+    }
+  }
+}]
